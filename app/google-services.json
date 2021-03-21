@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "158985669767",
+    "firebase_url": "https://minera-arca-sac.firebaseio.com",
+    "project_id": "minera-arca-sac",
+    "storage_bucket": "minera-arca-sac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158985669767:android:d125e9a42b919e6140fc22",
+        "android_client_info": {
+          "package_name": "com.arca.mineraarcasac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158985669767-59r7ipiqbg7ldlom3kbbtrseejk17vdn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arca.mineraarcasac",
+            "certificate_hash": "88b972f9054e9998eb3168d771737609ed1943b7"
+          }
+        },
+        {
+          "client_id": "158985669767-rjnqfmnmafr8v52diml2ifnh3a6u585e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLxHHfe6CVmDKc_dlI7M0ghcrS_NAtRMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158985669767-rjnqfmnmafr8v52diml2ifnh3a6u585e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

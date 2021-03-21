@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_add_ocurrencias">
+
+
+
+    <fragment
+        android:id="@+id/navigation_ordenes"
+        android:name="com.arca.mineraarcasac.ui.HistorialOrdenesPendientes.HistorialOrdenesFragment"
+        tools:layout="@layout/fragment_pendientes_ordenes" />
+
+
+    <fragment
+        android:id="@+id/navigation_hist_ordenes"
+        android:name="com.arca.mineraarcasac.ui.HistorialOrdenesAprobadas.HistorialAprobadasFragment"
+        tools:layout="@layout/fragment_historial_ordenes_aprobadas" />
+
+
+    <fragment
+        android:id="@+id/navigation_edit_ocurrencias"
+        android:name="com.arca.mineraarcasac.ui.OrdenesOcurrencias.OrdenesOcurrenciasFragment"
+        tools:layout="@layout/fragment_ocurrencias_pendientes" />
+
+    <fragment
+        android:id="@+id/navigation_add_ocurrencias"
+        android:name="com.arca.mineraarcasac.ui.AddOcurrencias.AddOcurrenciaFragment"
+        tools:layout="@layout/fragment_add_ocurrencias" />
+
+</navigation>

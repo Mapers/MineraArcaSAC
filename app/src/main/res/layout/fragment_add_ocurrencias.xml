@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/add_ocurrencias_new"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:logo="@drawable/logominirojo">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:text="AGREGAR OCURRENCIAS"
+            android:textColor="#FFFFFF" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:scrollbarStyle="outsideOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_negro_redondo"
+                android:orientation="vertical"
+                android:paddingTop="70dp"
+                android:paddingBottom="50dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtNombreOcurrencia"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:text="OCURRENCIA :   "
+                        android:textAlignment="gravity"
+                        android:textAllCaps="true"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/editNombreOcurrencia"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="3"
+                        android:background="#808A7526"
+                        android:ems="10"
+                        android:inputType="textCapCharacters"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#FFFFFF"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtTipoOcurrencia"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:text="TIPO :   "
+                        android:textAlignment="gravity"
+                        android:textAllCaps="true"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                        android:id="@+id/spinnerSearchTipo"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtNivelOcurrencia"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:text="NIVEL :   "
+                        android:textAlignment="gravity"
+                        android:textAllCaps="true"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                        android:id="@+id/spinnerSearchNivel"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtComentario"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="clip_horizontal"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:text="Comentario :   "
+                        android:textAlignment="gravity"
+                        android:textAllCaps="true"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+
+                    <EditText
+                        android:id="@+id/editComentario"
+                        android:layout_width="0dp"
+                        android:layout_height="134dp"
+                        android:layout_weight="3"
+                        android:background="#808A7526"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:lines="10"
+                        android:maxLines="15"
+                        android:minLines="5"
+                        android:gravity="top"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#FFFFFF"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+
+                    android:id="@+id/btn_guardar_Ocurrencias"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/enviar_01"
+                    android:padding="16dp"
+                    android:scaleType="fitXY"
+                    android:text="Enviar" />
+
+
+                <ImageButton
+                    android:id="@+id/btn_cancelar_Ocurrencias"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/borrar_01"
+                    android:padding="16dp"
+                    android:scaleType="fitXY"
+                    android:text="Limpiar" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

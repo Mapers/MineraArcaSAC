@@ -1,0 +1,34 @@
+<resources>
+    <string name="title_Ordenes">Mis Ordenes</string>
+    <string name="title_Hist_Ordenes">Hist. Ordenes</string>
+    <string name="title_ocurrencias">Ocurrencias</string>
+    <string name="title_edit_ocurrencias">Edit. Ocurrencias</string>
+    <string name="title_add_ocurrencias">Add Ocurrencias</string>
+    <string name="app_name">Minera Arca</string>
+    <string name="edit_name">Nombre de Usuario</string>
+    <string name="edit_pass">Contraseña de Usuario</string>
+
+    <string name="preference_file_key">preference_Arca_Minera_key</string>
+    <string name="nombre_key">preference_Arca_Minera_key</string>
+
+    <string name="default_notification_channel_id">9999 Canal Arca</string>
+    <string name="fcm_message">Notificaciones Arca Sac</string>
+    <string name="default_notification_channel_name">Canal Arca </string>
+
+    <string name="msg_subscribed">Suscripcion Exitosa </string>
+    <string name="msg_subscribe_failed">Fallo en la Suscripcion </string>
+    <string name="msg_token_fmt" translatable="false">Mi  Token: %s</string>
+
+    <string name="Nombre_Usuario">Nombre_Key_Usuario</string>
+    <string name="Clave_Usuario">Clave_Key_Usuario</string>
+    <string name="Chek_Seleccionado">Clave_Key_Seleccionado_Formulario</string>
+    <string name="ID_Nivel_Usuario">ID_NIVEL_USUARIO_CODIGO_SQL</string>
+    <string name="Cargo_Usuario">Cargo_Key_Usuario</string>
+    <string name="ID_Usuario">Identificador_ID_Usuario</string>
+
+
+        <string name="bienvenido"><u>BIENVENIDOS</u></string>
+    <string name="add_ocurrencias"><u>AGREGAR OCURRENCIAS</u></string>
+
+
+</resources>

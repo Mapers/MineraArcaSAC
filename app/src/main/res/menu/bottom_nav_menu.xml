@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_ordenes"
+        android:icon="@drawable/hist_ocurrencias"
+        android:title="@string/title_ocurrencias" />
+
+
+    <item
+        android:id="@+id/navigation_hist_ordenes"
+        android:icon="@drawable/mem"
+        android:title="@string/title_Hist_Ordenes"/>
+
+    <item
+        android:id="@+id/navigation_edit_ocurrencias"
+        android:icon="@drawable/ordenes"
+        android:title="@string/title_Ordenes"/>
+
+    <item
+        android:id="@+id/navigation_add_ocurrencias"
+        android:icon="@drawable/ocurrencias"
+        android:title="@string/title_add_ocurrencias" />
+
+</menu>
