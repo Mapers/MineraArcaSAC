@@ -8,6 +8,7 @@
     <string name="edit_name">Nombre de Usuario</string>
     <string name="edit_pass">Contraseña de Usuario</string>
 
+
     <string name="preference_file_key">preference_Arca_Minera_key</string>
     <string name="nombre_key">preference_Arca_Minera_key</string>
 
