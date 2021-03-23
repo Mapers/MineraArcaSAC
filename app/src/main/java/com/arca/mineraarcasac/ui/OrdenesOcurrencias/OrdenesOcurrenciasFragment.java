@@ -44,7 +44,7 @@ public class OrdenesOcurrenciasFragment extends Fragment {
         progressDialog = new ProgressDialog(getContext(), R.style.MyAlertDialogStyle);
         progressDialog.setIcon(R.drawable.icon_arca);
         progressDialog.setMessage("cargando ...");
-        progressDialog.setTitle("Minera");
+        progressDialog.setTitle("CONTRATA MINERA ARCA S.A.C.");
 
         sharedPref = root.getContext().getSharedPreferences(
                 getString(R.string.preference_file_key), Context.MODE_PRIVATE);
